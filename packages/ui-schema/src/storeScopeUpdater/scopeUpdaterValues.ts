@@ -23,6 +23,7 @@ export const scopeUpdaterValues = <S extends UIStoreType = UIStoreType, A extend
             // e.g. numbers in tuples must only be deleted, when it is inside an object, when inside an `list` undefined must be used for a "reset"
             // todo: support valueOnDelete and fix behaviour in Array tuples https://github.com/ui-schema/ui-schema/issues/106
             //       also tests are missing atm.
+            //@ts-ignore
             if (List.isList(parentStore)) {
                 store = store.setIn(prependKey(storeKeys, 'values'), null)
             } else if (Map.isMap(parentStore) || Record.isRecord(parentStore)) {
