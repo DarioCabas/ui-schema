@@ -1,0 +1,6 @@
+{
+    "sideEffects": false,
+    "type": "commonjs",
+    "module": "../../esm/Utils/getSchema/index.js",
+    "typings": "./index.d.ts"
+}

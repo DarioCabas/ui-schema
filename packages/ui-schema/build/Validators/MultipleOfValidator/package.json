@@ -1,0 +1,6 @@
+{
+    "sideEffects": false,
+    "type": "commonjs",
+    "module": "../../esm/Validators/MultipleOfValidator/index.js",
+    "typings": "./index.d.ts"
+}

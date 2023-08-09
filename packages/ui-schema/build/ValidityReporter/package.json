@@ -1,0 +1,6 @@
+{
+    "sideEffects": false,
+    "type": "commonjs",
+    "module": "../esm/ValidityReporter/index.js",
+    "typings": "./index.d.ts"
+}

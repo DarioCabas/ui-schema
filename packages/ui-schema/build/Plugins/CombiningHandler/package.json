@@ -1,0 +1,6 @@
+{
+    "sideEffects": false,
+    "type": "commonjs",
+    "module": "../../esm/Plugins/CombiningHandler/index.js",
+    "typings": "./index.d.ts"
+}

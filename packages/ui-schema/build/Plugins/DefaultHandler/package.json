@@ -1,0 +1,6 @@
+{
+    "sideEffects": false,
+    "type": "commonjs",
+    "module": "../../esm/Plugins/DefaultHandler/index.js",
+    "typings": "./index.d.ts"
+}

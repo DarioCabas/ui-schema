@@ -1,0 +1,6 @@
+{
+    "sideEffects": false,
+    "type": "commonjs",
+    "module": "../esm/ObjectRenderer/index.js",
+    "typings": "./index.d.ts"
+}
